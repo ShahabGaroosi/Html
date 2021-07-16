@@ -3,33 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
+        <link rel="stylesheet" href="MyStyle.css" />
     </head>
-    <body>
-        <h1>Logo</h1>
+    <body class="gridLogin">
+        <h1 class="siteName">Logo</h1>
         <nav>
             <ul>
-                <li>
+                <li class="menuItem1">
                     <a href="url">Link 1</a>
                 </li>
-                <li>
+                <li class="menuItem2">
                     <a href="url">Link 2</a>
                 </li>
-                <li>
+                <li class="menuItem3">
                     <a href="url">Link 3</a>
                 </li>
             </ul>  
         </nav>
-        <a href="url">Login</a>
-        <div class="myDiv">
-            <h2>User login</h2>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Password:</label>
-            <input type="text" id="password" name="password">
-            <input type="reset" value="reset">
-            <input type="submit" value="Sign in">
+        <a class="index" href="url">Index</a>
+        <div class="divLogin">
+            <h2 class="header">User login</h2>
+            <form id="rcorners" class="form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password">
+                <input type="reset" value="reset">
+                <input type="submit" value="Sign in">
+            </form>
         </div>
-        <footer>
+        <footer class="footer">
             <span>&copy;Shahab Garoosi</span>
         </footer>
     </body>
