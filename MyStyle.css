@@ -5,7 +5,7 @@
 .index { grid-area: index; }
 .login { grid-area: login; }
 .mainHeader { grid-area: mainHeader; }
-.header { grid-area: header; }
+.header { grid-area: header; text-transform: uppercase;}
 .form { grid-area: form; }
 .subText { grid-area: subText; }
 .article1 { grid-area: article1; }
@@ -65,3 +65,11 @@ li {
     border: 2px solid grey;
     padding: 20px; 
 }
+
+input[type=submit], input[type=reset] {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 8px 16px;
+    margin: 4px 2px;
+  }
